@@ -321,3 +321,69 @@ nav ul li a{
     gap: 10px;
     margin: 0px auto;
 }
+
+footer{
+    max-width: 1600px;
+    padding: 120px 120px 30px 120px;
+    background-color: #001931;
+}
+
+#footer-container{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+#footer-container .content-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-section .section-logo{
+    max-width: 350px;
+}
+
+.social-links{
+    max-width: 220px;
+    text-align: left;
+    margin-right: 80px;
+}
+
+.social-links span{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.social-links ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+
+}
+
+.social-links ul li{
+    list-style: none;
+}
+
+.social-links ul li a{
+    text-decoration: none;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    color: black;
+}
+
+.copyright-section{
+    border-top: 3px solid rgba(83, 83, 83, 0.3) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.copyright-section span{
+    padding: 30px 0;
+    color: #F7F6F2;
+    font-weight: 300;
+}
