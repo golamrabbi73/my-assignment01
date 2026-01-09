@@ -274,3 +274,50 @@ nav ul li a{
     width: 2px;
     height: 2px;
 }
+
+#access-section{
+    max-width: 1600px;
+    padding: 2px 120px 120px 120px;
+}
+
+#access-section .access-container{
+    max-width: 1360px;
+    padding: 80px 40px;
+    text-align: center;
+    background-color: #F7F6F2;
+}
+
+#access-section .access-container .access-content h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    color: #001931;
+
+}
+
+#access-section .access-container .access-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #627382;
+    margin-top: 16px;
+}
+
+#access-section .access-container .access-info{
+    margin-top: 24px;
+    text-align: center;
+}
+
+#access-section .access-container .access-info p{
+    margin-top: 16px;
+    color: #627382;
+}
+
+
+.access-info button{
+    display: flex;
+    gap: 10px;
+    margin: 0px auto;
+}
